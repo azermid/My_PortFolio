@@ -2,7 +2,7 @@
 
 Un portfolio moderne et dynamique qui présente mes projets GitHub et mes compétences en développement.
 
-## 🛠 Technologies Utilisées
+## Technologies Utilisées
 
 - **Vue.js 3** - Framework JavaScript progressif avec Composition API
 - **TypeScript** - Pour un code typé et plus robuste
@@ -12,18 +12,18 @@ Un portfolio moderne et dynamique qui présente mes projets GitHub et mes compé
 - **Marked** - Pour le rendu Markdown des READMEs
 - **LocalStorage** - Pour la mise en cache des données
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-- 📊 Statistiques en temps réel des langages de programmation utilisés
-- 🔄 Mise à jour automatique depuis GitHub
-- 📱 Design responsive et moderne
-- 🎯 Filtrage des projets par langage de programmation
-- 📘 Affichage des READMEs des projets
-- ⚡ Mise en cache pour des performances optimales
-- 🎨 Interface utilisateur avec effet glassmorphisme
-- 📄 Téléchargement de CV intégré
+-  Statistiques en temps réel des langages de programmation utilisés
+-  Mise à jour automatique depuis GitHub
+-  Design responsive et moderne
+-  Filtrage des projets par langage de programmation
+-  Affichage des READMEs des projets
+-  Mise en cache pour des performances optimales
+-  Interface utilisateur avec effet glassmorphisme
+-  Téléchargement de CV intégré
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 
@@ -61,7 +61,7 @@ npm run dev
 
 L'application sera disponible sur `http://localhost:5173`
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 My_PortFolio/
@@ -111,7 +111,7 @@ My_PortFolio/
 - Les données des projets sont mises en cache pendant 24 heures
 - Les statistiques de langages sont stockées séparément
 
-## 🚀 Production
+##  Production
 
 Pour déployer en production :
 
