@@ -61,45 +61,8 @@ npm run dev
 
 L'application sera disponible sur `http://localhost:5173`
 
-##  Structure du Projet
 
-```
-My_PortFolio/
-├── src/
-│   ├── components/
-│   │   ├── Footer.vue
-│   │   └── ...
-│   ├── views/
-│   │   └── Projects/
-│   │       ├── components/
-│   │       │   ├── GlobalLanguages.vue
-│   │       │   ├── ProjectCard.vue
-│   │       │   ├── ProjectLanguages.vue
-│   │       │   └── LoadingSpinner.vue
-│   │       ├── composables/
-│   │       │   ├── useGithub.ts
-│   │       │   ├── useCache.ts
-│   │       │   └── useLanguages.ts
-│   │       ├── types/
-│   │       │   └── index.ts
-│   │       ├── styles/
-│   │       │   └── markdown.css
-│   │       └── index.vue
-│   ├── assets/
-│   │   └── linkedin-icon.png
-│   ├── router/
-│   │   └── index.ts
-│   └── App.vue
-├── public/
-│   └── CV.pdf
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-```
-
-## ⚙️ Configuration
+##  Configuration
 
 ### Limites de l'API GitHub
 
