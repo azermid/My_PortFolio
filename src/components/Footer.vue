@@ -16,9 +16,6 @@
           class="linkedin-icon"
         />
       </a>
-      <a href="/assets/CV.pdf" download class="cv-link">
-        <span>Mon CV</span>
-      </a>
     </div>
   </footer>
 </template>
