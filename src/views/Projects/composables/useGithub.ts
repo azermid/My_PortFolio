@@ -27,7 +27,6 @@ export function useGithub() {
 
       if (readmeResponse.ok) {
         const { content } = await readmeResponse.json();
-        // Correction de l'encodage des caractères spéciaux
         const decodedContent = decodeURIComponent(escape(atob(content)));
         repoDetails.readme = await marked.parse(decodedContent);
       }
