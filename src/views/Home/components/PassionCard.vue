@@ -32,7 +32,7 @@ onMounted(() => {
 <template>
   <div
     ref="cardRef"
-    class="passion-card group relative bg-apple-dark rounded-xl overflow-hidden shadow-xl"
+    class="passion-card group relative bg-gray-800 rounded-xl overflow-hidden shadow-xl"
   >
     <div class="h-48 overflow-hidden">
       <div
@@ -65,5 +65,14 @@ onMounted(() => {
 
 .passion-card:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+  .passion-card {
+    height: auto;
+  }
+  .h-48 {
+    height: 24rem;
+  }
 }
 </style>

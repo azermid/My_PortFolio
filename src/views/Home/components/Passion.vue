@@ -87,3 +87,14 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+@media (max-width: 640px) {
+  .passions-title {
+    font-size: 2rem;
+  }
+  .passion-card {
+    height: auto;
+  }
+}
+</style>
