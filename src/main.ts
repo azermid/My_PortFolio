@@ -10,7 +10,6 @@ router.afterEach((to) => {
     if (window.gtag && GA_ID) {
       window.gtag('config', GA_ID, { 
         page_path: to.fullPath, 
-        debug_mode: true
       });
     }
   });
