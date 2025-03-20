@@ -6,13 +6,12 @@ import router from './router'
 const app = createApp(App)
 
 router.afterEach((to) => {
-    if (window.gtag) {
-      window.gtag('config', 'G-EFQ0GRL5GB', { 
+    const GA_ID = import.meta.env.VITE_GA_ID;
+    if (window.gtag && GA_ID) {
+      window.gtag('config', GA_ID, { 
         page_path: to.fullPath, 
-        debug_mode: true  // Active le mode debug
       });
     }
   });
-
 app.use(router)
 app.mount('#app')
