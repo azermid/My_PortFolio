@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { ref, onMounted } from "vue";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -12,10 +12,12 @@ defineProps<{
   icon: any;
 }>();
 
+const cardRef = ref(null);
+
 onMounted(() => {
-  gsap.from(".passion-card", {
+  gsap.from(cardRef.value, {
     scrollTrigger: {
-      trigger: ".passion-card",
+      trigger: cardRef.value,
       start: "top bottom-=100",
       toggleActions: "play none none reverse",
     },
@@ -29,6 +31,7 @@ onMounted(() => {
 
 <template>
   <div
+    ref="cardRef"
     class="passion-card group relative bg-apple-dark rounded-xl overflow-hidden shadow-xl"
   >
     <div class="h-48 overflow-hidden">
