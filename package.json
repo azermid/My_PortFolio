@@ -13,6 +13,7 @@
     "@vueuse/core": "^10.7.2",
     "emailjs-com": "^3.2.0",
     "gsap": "^3.12.5",
+    "lucide-vue-next": "^0.483.0",
     "marked": "^12.0.0",
     "vue": "^3.4.38",
     "vue-router": "^4.2.5"
