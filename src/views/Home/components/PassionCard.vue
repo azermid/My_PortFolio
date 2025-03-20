@@ -29,7 +29,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="passion-card group relative bg-gray-800 rounded-xl overflow-hidden shadow-xl"
+    class="passion-card group relative bg-apple-dark rounded-xl overflow-hidden shadow-xl"
   >
     <div class="h-48 overflow-hidden">
       <div

@@ -35,7 +35,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen pt-16 bg-gray-900">
+  <div class="min-h-screen pt-16 bg-apple-dark">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div class="text-center">
         <h1 class="hero-title text-4xl sm:text-6xl font-bold text-white mb-8">

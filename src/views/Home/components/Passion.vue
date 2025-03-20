@@ -67,7 +67,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="passions-section bg-gray-900 py-12">
+  <div class="passions-section bg-apple-dark py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2
         class="passions-title text-4xl font-bold text-white text-center mb-12"
